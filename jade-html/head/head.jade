@@ -1,0 +1,24 @@
+nav.navbar.navbar-default.container-fluid( role="navigation" )
+    // Here we created our head
+    //This part shows as a burger on the phones and tablets
+    .navbar-header
+        button.navbar-toggle.collapsed( type="button", data-toggle="collapse", data-target="#navbar-inverse", aria-expanded="false", aria-controls="navbar")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        .logo
+          img(src='../pictures/head/logo.png')
+    //All the Itmes of the nav bar
+    #navbar-inverse.collapse.navbar-collapse
+        ul.nav.navbar-nav
+            li: a( href="#") Что мы делаем?
+            li: a( href="#" ) Использование
+            li: a( href="#" ) Как это работает
+            li: a( href="#" ) Блог
+            li: a( href="#" ) Контакты 
+      ul.nav.navbar-nav.second
+          // Language toggler
+          li: a( href="#") EN
+          li: a( href="#" ) RU
+  

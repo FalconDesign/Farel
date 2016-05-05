@@ -1,0 +1,39 @@
+$exo-2: 'Exo', sans-serif
+
+.content
+
+  .header
+    font:
+      size: 31pt
+      family: $exo-2
+
+    // Responsive h1
+
+    h1
+      word-wrap: break-word
+      -webkit-hyphens: auto
+      -moz-hyphens: auto
+      -ms-hyphens: auto
+      -o-hyphens: auto
+      hyphens: auto
+
+  .small_header
+    font:
+      size: 20pt
+      family: $exo-2
+
+  .img-responsive
+    margin: 50px auto
+
+  .farel_logo
+    padding-left: 90px
+
+    @media (max-width: 550px)
+      padding-left: 17%
+
+  .arrows_down
+    width: 18px
+    height: 29px
+    margin: 0px auto
+    background: url('../pictures/content/arrows.png') center center
+    background-repeat: no-repeat

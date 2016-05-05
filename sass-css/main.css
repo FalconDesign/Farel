@@ -1,0 +1,312 @@
+.content .header {
+  font-size: 31pt;
+  font-family: "Exo", sans-serif;
+}
+
+.content .header h1 {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+.content .small_header {
+  font-size: 20pt;
+  font-family: "Exo", sans-serif;
+}
+
+.content .img-responsive {
+  margin: 50px auto;
+}
+
+.content .farel_logo {
+  padding-left: 90px;
+}
+
+@media (max-width: 550px) {
+  .content .farel_logo {
+    padding-left: 17%;
+  }
+}
+
+.content .arrows_down {
+  width: 18px;
+  height: 29px;
+  margin: 0px auto;
+  background: url("../pictures/content/arrows.png") center center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background: #3f3f3f;
+  border: none !important;
+  border-radius: 0px !important;
+  height: 60px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: block !important;
+  }
+}
+
+.navbar .collapse {
+  border: 0px !important;
+}
+
+.navbar .logo {
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .navbar .logo {
+    margin-left: 20px;
+  }
+}
+
+ul.nav {
+  background: #3f3f3f;
+  margin-top: 0px;
+  font-size: 15pt;
+}
+
+@media (max-width: 1065px) and (min-width: 768px) {
+  ul.nav {
+    font-size: 10pt;
+  }
+}
+
+ul.nav li {
+  padding: 0px;
+}
+
+ul.nav li a {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 17px 0px 10px 0px;
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul.nav li a:hover {
+  border-bottom: 1px solid #00afce;
+}
+
+@media (max-width: 768px) {
+  ul.nav li a {
+    padding-left: 30px;
+    margin-left: 0px;
+    border: 0px !important;
+    padding-bottom: 15px;
+  }
+  ul.nav li a:hover, ul.nav li a:focus {
+    background: #00afce !important;
+  }
+}
+
+@media (max-width: 768px) {
+  ul.nav.second {
+    margin-top: -6px !important;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 767px) {
+  ul.nav.second {
+    display: none;
+  }
+}
+
+ul.nav.second li a {
+  margin-left: 0px !important;
+  margin-top: 6px;
+  text-decoration: none;
+  border: 0px;
+  padding: 11px;
+}
+
+ul.nav.second li a:hover, ul.nav.second li a:focus {
+  background: #00afce !important;
+}
+
+@media (max-width: 768px) {
+  ul.nav.second li a {
+    padding-left: 30px !important;
+  }
+}
+
+.inst_container_one {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+}
+
+.inst_container_one .number {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  color: #00afce;
+  border: 1pt solid #00afce;
+  border-radius: 50%;
+  font-size: 30pt;
+  font-family: "Open Sans", sans-serif;
+}
+
+.inst_container_one .text {
+  width: 50%;
+  font-size: 16pt !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+.inst_container_one .text span {
+  color: #00afce;
+  font-weight: bold;
+}
+
+@media (max-width: 459px) {
+  .inst_container_one .text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.inst_container_one .logo_container {
+  width: 150px;
+  height: 45px;
+  background: pink;
+}
+
+.brands_container {
+  height: 175px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  box-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -o-align-items: flex-end;
+  align-items: flex-end;
+  -ms-flex-align: end;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.brands_container .brand {
+  background: pink;
+  height: 48px;
+  width: 208px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 479px) {
+  .brands_container .brand {
+    margin-bottom: 0px;
+  }
+}
+
+.about {
+  background: #3f3f3f;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18pt;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f3f3f3;
+}

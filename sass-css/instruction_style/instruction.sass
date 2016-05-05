@@ -1,0 +1,57 @@
+$main-gray: #3f3f3f
+$main-blue: #00afce
+$sans: 'Open Sans', sans-serif
+
+.inst_container_one
+  +display(flex)
+  +flex-wrap(wrap)
+  +justify-content(space-around)
+  +align-items(center)
+  .number
+    +size(50px)
+    +display(flex)
+    +justify-content(center)
+    +align-items(center)
+    color: $main-blue
+    border: 1pt solid $main-blue
+    border-radius: 50%
+    font:
+      size: 30pt
+      family: $sans
+
+  .text
+    width: 50%
+    font:
+      size: 16pt !important
+      family: $sans
+
+    span
+      color: $main-blue
+      font-weight: bold
+
+    @media (max-width: 459px)
+      width: 100%
+      text-align: center
+
+
+
+  .logo_container
+    width: 150px
+    height: 45px
+    background: pink
+
+.brands_container
+  height: 175px
+  +display(flex)
+  +justify-content(space-around)
+  +align-items(flex-end)
+  +flex-wrap(wrap)
+
+  .brand
+    background: pink
+    height: 48px
+    width: 208px
+    margin-bottom: 60px
+
+    @media (max-width: 479px)
+      margin-bottom: 0px
