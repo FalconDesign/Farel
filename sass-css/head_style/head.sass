@@ -46,7 +46,7 @@ ul.nav
       &:hover
         border-bottom: 1px solid $main-blue
 
-      @media (max-width: 768px)
+      @media (max-width: 767px)
         padding-left: 30px
         margin-left: 0px
         border: 0px !important
@@ -56,12 +56,14 @@ ul.nav
 
 
 ul.nav.second
-  @media (min-width: 768px)
+  @media (min-width: 823px)
     padding-left: 100px
   @media (max-width: 768px)
     margin-top: -6px !important
   @media (max-width: 768px)   and (min-width: 767px)
-    display: none
+    position: absolute
+    right: 0px
+    top: 6px
 
   li
     a
@@ -75,5 +77,5 @@ ul.nav.second
       &:hover,
       &:focus
         background: $main_blue !important
-      @media (max-width: 768px)
+      @media (max-width: 767px)
         padding-left: 30px !important
