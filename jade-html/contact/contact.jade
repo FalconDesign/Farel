@@ -1,0 +1,37 @@
+.container-fluid.contact#contact
+  .row
+    .col-sm-12.text-center.text-uppercase
+       h1 мы всегда на связи
+    .col-sm-12
+      .col-sm-4.col-sm-push-1.mail
+        h3 Контакты
+        .contact_container
+          .logo.envelope
+            img(src="../pictures/contact/envelope.png", alt="Envelope")
+            h3 mail@gmail.com
+          .logo.tweet
+            img(src="../pictures/contact/phone.png", alt="Phone")
+            h3 044 435 43 56
+          .logo.location
+            img(src="../pictures/contact/location.png", alt="location")
+            h3 г.Киев, ул. Константиновская 73
+      .col-sm-2.col-sm-push-1.social
+        h3 Соц. сети
+        .contact_container.social_box
+          .logo.envelope
+            img(src="../pictures/contact/fbook.png", alt="fbook")
+            h3 userName
+          .logo.phone
+            img(src="../pictures/contact/tweet.png", alt="tweetter")
+            h3 userName
+          .logo.location
+            img(src="../pictures/contact/insta.png", alt="instagram")
+            h3 userName
+      .col-sm-3.col-sm-push-1.text-center.form_box
+        h3 Обратная связь
+        form
+          .form-group
+          input.form-control(type='text', placeholder='Имя')
+          input.form-control(type='email', placeholder='Почта')
+          input.form-control(type='text', placeholder='Телефон')
+          button.btn.btn-info(type='submit') Отправить

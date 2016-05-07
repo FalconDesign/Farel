@@ -1,0 +1,44 @@
+$main-gray: #3f3f3f
+$main-blue: #00afce
+$sans: 'Open Sans', sans-serif
+$exo-2: 'Exo', sans-serif
+
+
+
+.infographic_screen
+  @extend .using_with_phone
+  background: #f3f3f3
+
+
+  h1
+    color: $main-gray
+
+    @media (max-width: 768px)
+      font:
+        size: 20pt !important
+
+    img
+      @media (max-width: 1035px)
+        margin-left: 0px !important
+
+
+
+  h2
+    color: $main-gray
+
+  h3
+    font:
+      family: $exo-2
+      size: 15pt
+
+.instructions
+  @media (min-width: 1200px)
+    margin-top: -50px
+
+  .box_one
+    @media (min-width: 1200px)
+      margin-left: 50px
+
+  .box_two
+    @media (min-width: 1200px)
+      margin-left: 15px

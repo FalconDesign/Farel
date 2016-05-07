@@ -7,6 +7,7 @@ $sans: 'Open Sans', sans-serif
   +flex-wrap(wrap)
   +justify-content(space-around)
   +align-items(center)
+
   .number
     +size(50px)
     +display(flex)
@@ -37,8 +38,19 @@ $sans: 'Open Sans', sans-serif
 
   .logo_container
     width: 150px
-    height: 45px
-    background: pink
+    height: 55px
+
+  .first
+    background: url('../pictures/instruction/first.png') 0px center
+    background-repeat: no-repeat
+
+  .second
+    background: url('../pictures/instruction/second.png') center center
+    background-repeat: no-repeat
+
+  .third
+    background: url('../pictures/instruction/third.png') 0px center
+    background-repeat: no-repeat
 
 .brands_container
   height: 175px
@@ -46,12 +58,40 @@ $sans: 'Open Sans', sans-serif
   +justify-content(space-around)
   +align-items(flex-end)
   +flex-wrap(wrap)
+  margin-left: 50%
+  +transform(translate(-50%, 0%))
+
+
+  .google
+    background: url('../pictures/instruction/google.png') center center
+    background-repeat: no-repeat
+  .apple
+    background: url('../pictures/instruction/apple.png') center center
+    background-repeat: no-repeat
+
 
   .brand
-    background: pink
     height: 48px
     width: 208px
     margin-bottom: 60px
 
     @media (max-width: 479px)
       margin-bottom: 0px
+
+.point-box
+  +size(50px)
+  +display(flex)
+  +justify-content(center)
+  +flex-direction(column)
+  +align-items(center)
+  margin-left: 4.5%
+  @media (max-width: 1175px) and (min-width:992px)
+    visibility: hidden
+  @media (max-width: 800px)
+    visibility: hidden
+
+  .point
+    +size(8px)
+    margin: 8px
+    background: $main_blue
+    border-radius: 50%

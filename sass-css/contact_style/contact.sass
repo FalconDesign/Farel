@@ -1,0 +1,64 @@
+$main-gray: #3f3f3f
+$main-blue: #00afce
+$sans: 'Open Sans', sans-serif
+$exo-2: 'Exo', sans-serif
+
+.contact
+  background: $main-gray
+  padding-bottom: 50px
+
+  .mail
+    h3
+      margin-left: 40px
+    @media (min-width: 1060px)
+      margin-left: 30px
+
+  .social
+    h3
+      @media (max-width: 769px)
+        margin-left: 20px
+
+  .form_box
+    @media (min-width: 1060px)
+      margin-left: 40px
+
+  .contact_container
+    img
+      float: left
+      padding-right: 20px
+
+  h1
+    color: white
+    font:
+      size: 28pt !important
+      family: $exo-2 !important
+
+    word-wrap: break-word
+    -webkit-hyphens: auto
+    -moz-hyphens: auto
+    -ms-hyphens: auto
+    -o-hyphens: auto
+    hyphens: auto
+
+    @media (max-width: 768px)
+      font:
+        size: 20pt !important
+
+  h3
+    color: $main-blue
+    font:
+      size: 15pt
+      family: $sans
+
+  form
+    input
+      margin-bottom: 10px
+      border-radius: 0px
+    button
+      border-radius: 0px
+
+.social_box
+  h3
+    @media (max-width: 1053px) and (min-width: 768px)
+      font:
+        size: 12pt

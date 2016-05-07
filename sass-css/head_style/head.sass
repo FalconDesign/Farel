@@ -4,6 +4,7 @@ $sans: 'Open Sans', sans-serif
 
 
 .navbar
+  z-index: 1000
   background: $main-gray
   border: none !important
   border-radius: 0px !important
@@ -49,13 +50,14 @@ ul.nav
         padding-left: 30px
         margin-left: 0px
         border: 0px !important
-        padding-bottom: 15px
         &:hover,
         &:focus
           background: $main-blue !important
 
 
 ul.nav.second
+  @media (min-width: 768px)
+    padding-left: 100px
   @media (max-width: 768px)
     margin-top: -6px !important
   @media (max-width: 768px)   and (min-width: 767px)

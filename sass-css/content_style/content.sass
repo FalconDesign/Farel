@@ -1,7 +1,7 @@
 $exo-2: 'Exo', sans-serif
 
 .content
-
+  padding-top: 60px
   .header
     font:
       size: 31pt
@@ -16,6 +16,10 @@ $exo-2: 'Exo', sans-serif
       -ms-hyphens: auto
       -o-hyphens: auto
       hyphens: auto
+
+      @media (max-width: 768px)
+        font:
+          size: 20pt !important
 
   .small_header
     font:

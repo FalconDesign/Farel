@@ -1,0 +1,58 @@
+$main-gray: #3f3f3f
+$main-blue: #00afce
+$sans: 'Open Sans', sans-serif
+$exo-2: 'Exo', sans-serif
+
+.using_with_phone
+  padding-bottom: 40px
+  background: $main-gray
+
+  h1
+    color: white
+    word-wrap: break-word
+    -webkit-hyphens: auto
+    -moz-hyphens: auto
+    -ms-hyphens: auto
+    -o-hyphens: auto
+    hyphens: auto
+    font:
+      size: 28pt
+      family:  $exo-2
+
+    @media (max-width: 768px)
+      font:
+        size: 20pt !important  
+
+    img
+      margin-bottom: 10px
+      @media (min-width: 987px)
+        margin-left: 30px
+
+
+
+  .number
+    +size(50px)
+    +display(flex)
+    +justify-content(center)
+    +align-items(center)
+    color: $main-blue
+    margin: 0px auto
+    border: 1pt solid $main-blue
+    border-radius: 50%
+    font:
+      size: 30pt
+      family: $sans
+
+  h2
+    color: white
+    font:
+      size: 15pt
+      family: $sans
+
+  .img-responsive
+    margin: 20px auto
+
+  .col-md-12:nth-child(5)
+    h2
+      .number
+        margin-top: 20px
